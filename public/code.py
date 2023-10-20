@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-dataset= pd.read_csv("train.csv")
+dataset= pd.read_csv("https://raw.githubusercontent.com/Nitya020602/Forest_Cover_Type/main/train.csv")
 dataset
 dataset.isnull().sum()
 x= dataset.drop('Cover_Type',axis=1)
